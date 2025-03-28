@@ -20,7 +20,6 @@ class NodeData {
   final IconData icon;
   final Offset position; // Canvas position
   final List<OutputData> outputs;
-  // bool isSelected; // Add later
 
   NodeData({
     required this.id,
@@ -28,6 +27,5 @@ class NodeData {
     required this.icon,
     required this.position,
     required this.outputs,
-    // this.isSelected = false,
   });
 }

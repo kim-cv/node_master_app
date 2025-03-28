@@ -48,8 +48,7 @@ class NodeContainerWidget extends StatelessWidget {
 
             // --- Input Socket ---
             const Positioned(
-              top: -(NodeWidgetStyle.socketRadius +
-                  NodeWidgetStyle.socketMargin),
+              top: -(NodeWidgetStyle.socketRadius),
               left: 0,
               right: 0,
               child: Align(
